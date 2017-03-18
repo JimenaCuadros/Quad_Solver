@@ -1,0 +1,10 @@
+1. Code for Quadratic solver in C.
+
+2. System will prompt the user for input of A, B and C. System will check for valid input.
+3. All numbers are normalized IEEE single precision numbers using scanf input.
+4. Have version control system and standards for compiler, OS, language.
+5. Return to the user if there is two real roots, or no real roots.
+  If 2 real roots return as single precision values.
+  If there is a problem with accuracy or precision, give the user a warning.
+6. Unit Testing: Create unit tests for multiple parts of the program to ensure valid input and output.
+7. Program to be coded in C and compiled with Makefile.

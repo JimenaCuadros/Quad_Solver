@@ -1,0 +1,4 @@
+//Compiling modules
+
+Makefiles are used to run different modules and the Quad Solver.
+All makefiles commands are specified in the README files in the corresponding folder.

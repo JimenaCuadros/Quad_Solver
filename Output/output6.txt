@@ -1,0 +1,4 @@
+Enter coefficients a, b, and c: 2 0 2
+Expected output: 1i, -1i
+It has Complex Roots
+Output:

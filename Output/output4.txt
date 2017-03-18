@@ -1,0 +1,4 @@
+Enter coefficients a, b, and c: 9 -6 3
+Expected output: 0.33333333333333 + 0.47140452079103i, 0.33333333333333 - 0.47140452079103i
+It has Complex Roots
+Output:

@@ -1,0 +1,5 @@
+1. Unit Testing
+  Individual tests for modules in the Quad solver and return appropriate output.
+
+2. System Testing
+  This test will test the functionality of the Quad Solver as a whole.
