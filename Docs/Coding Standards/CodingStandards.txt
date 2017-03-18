@@ -1,0 +1,5 @@
+This project will follow the C11 coding standards as it is the latest C standard.
+
+The Quad Solver will include the NASA style of programming.
+
+Documentation of both of these are provided in this same folder.
