@@ -15,7 +15,6 @@ int main(int argc, char** argv){
 		return 0;
 	}
 	numerator = calc_numerator(inputs.a, inputs.b, inputs.c);
-	printf("%lf NUMERATER\n", numerator);
 	roots = calc_roots(numerator, inputs, roots);
 	if(roots.valid == 1 && roots.oneroot == -1){
 		printf("There is one root: %f\n", roots.x1);
