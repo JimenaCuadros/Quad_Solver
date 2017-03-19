@@ -4,20 +4,20 @@
 
 Input input_validation(){
 	int ret=0, i;
-	double value[3];
+	float value[3];
 	char letter[] = {'A','B','C'};
 	Input inputs;
 	for(i=0;i<3;i++){
 		while(ret>1 || ret == 0){
 			printf("Enter a value for %c: \n", letter[i]);
-			ret = scanf("%lf", &value[i]);
+			ret = scanf("%f", &value[i]);
 			if(ret==0 || ret>1){
 				printf("Invalid value: enter A again.\n");
 			}
 			scanf("%*c");
 		}
 		ret=0;
-		printf("THis is %c is %lf\n", letter[i], value[i]);	
+		printf("This is %c is %lf\n", letter[i], value[i]);	
 	}
 	inputs.a = value[0];
 	inputs.b = value[1];
